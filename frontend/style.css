@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff9900, #ffd700);
+}
+header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.logo {
+    width: 80px;
+    animation: bounce 1s infinite;
+}
+#products {
+    display: grid;
+    gap: 15px;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
