@@ -102,6 +102,14 @@ sudo mysql_secure_installation
 ```
 Setup the new password and give Y to all
 
+10. Login to the mysql as root
+    
+```bash
+mysql -u root -p
+```
+Here enter the new passowrd set for the SQL
+
+
 10. To create database and restore data, please refer SQL scripts on [db.sql](./backend/db.sql) file.
 
 
