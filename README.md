@@ -124,7 +124,7 @@ git — version
 
 #### Clone repository
 ```bash
-git clone https://github.com/learnItRightWay01/react-node-mysql-app.git
+git clone https://github.com/accawsdevops/completeproject.git
 ```
 
 #### Install node.js
