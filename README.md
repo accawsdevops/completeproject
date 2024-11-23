@@ -109,8 +109,7 @@ mysql -u root -p
 ```
 Here enter the new passowrd set for the SQL
 
-
-10. To create database and restore data, please refer SQL scripts on [db.sql](./backend/db.sql) file.
+11. To create database and restore data, please refer SQL scripts on [db.sql](./backend/db.sql) file.
 
 
 ## Setting up the Application Tier
