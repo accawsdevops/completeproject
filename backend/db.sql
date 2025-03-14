@@ -4,6 +4,7 @@ CREATE USER 'appuser'@'%' IDENTIFIED BY 'Pass@12#';
 GRANT ALL PRIVILEGES ON react_node_app.* TO ' appuser'@'%'; 
 FLUSH PRIVILEGES; 
 
+USE react_node_app;
 
 -- Create Tables
 CREATE TABLE `author` ( 
