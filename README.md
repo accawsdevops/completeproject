@@ -40,7 +40,7 @@ ssh -A ec2-user@bastion_host_public_ip
 5. To connect private instance from the bastion host:
 
 ```bash
-ssh ec2-user@private_instance_private_ip 
+ssh -i "<>key_name" ec2-user@<private_ip> 
 ```
 
 ## Setting up the Data Tier
